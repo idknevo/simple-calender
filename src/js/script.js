@@ -25,5 +25,3 @@ const updateCalender = function () {
   time.innerText = date.toLocaleTimeString("en")
 };
 updateCalender();
-
-console.log("message");
