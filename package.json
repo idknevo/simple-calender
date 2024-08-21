@@ -1,0 +1,15 @@
+{
+  "name": "simple-calender",
+  "version": "1.0.0",
+  "description": "simple calender app with time",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build" : "parcel build index.html --no-scope-hoist --dist-dir ./dist"
+  },
+  "author": "nevo",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
